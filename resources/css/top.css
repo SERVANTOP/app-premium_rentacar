@@ -113,6 +113,7 @@
     }
 
     @media (max-width: 1020px) and (min-width: 768px) {
+<<<<<<< HEAD
         body {
             background-color: maroon;
         }
@@ -342,4 +343,11 @@
             margin-right: auto;
             text-align: center;
         } 
+=======
+        #css { 狭いブラウザとタブレット向け } 
+    }
+     
+    @media (max-width: 767px) {
+        #css{ スマホ向け } 
+>>>>>>> db46bd6aec7b5be5eb48520e42ddd18c69a83b98
     }
